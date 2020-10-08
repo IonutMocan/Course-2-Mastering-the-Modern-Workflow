@@ -7,6 +7,7 @@
   }
 
   &__text-content {
+    padding-top: 60px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -47,7 +48,7 @@
     margin-right: auto;
 
     @mixin atSmall {
-    font-size: 1.875rem;
+      font-size: 1.875rem;
     }
   }
 }
